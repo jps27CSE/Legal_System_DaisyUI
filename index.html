@@ -133,7 +133,7 @@
           <h1 class="text-center text-3xl font-extrabold">
             What Our Client Say
           </h1>
-          <p class="text-center font-semibold pt-2 w-[700px] mx-auto">
+          <p class="text-center font-semibold pt-2 w-[70%] mx-auto">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour.
@@ -246,7 +246,7 @@
           humour.
         </p>
 
-        <div class="flex mt-5">
+        <div class="lg:flex md:flex mt-5">
           <div>
             <div class="collapse collapse-plus bg-base-200 mb-5">
               <input type="radio" name="my-accordion-3" checked="checked" />
@@ -303,8 +303,12 @@
           </div>
 
           <!-- faq image -->
-          <div class="ml-5 w-[50%]">
-            <img class="w-[400px] h-[400px]" src="images/faq.png" alt="" />
+          <div class="ml-5 lg:w-[50%] mx-auto">
+            <img
+              class="lg:w-[400px] lg:h-[400px]"
+              src="images/faq.png"
+              alt=""
+            />
           </div>
         </div>
       </section>
@@ -320,9 +324,9 @@
           </p>
         </div>
 
-        <div class="flex mt-5">
+        <div class="flex flex-col lg:flex-row mt-5">
           <!-- cards -->
-          <div class="grid grid-cols-2 w-[50%]">
+          <div class="grid grid-cols-1 lg:grid-cols-2 w-[50%]">
             <div class="h-64 w-64 bg-[#F3F3F3] mb-5">
               <div class="px-10 py-16">
                 <img
@@ -381,7 +385,7 @@
           </div>
 
           <!-- input field -->
-          <div class="w-[50%]">
+          <div class="w-[50%] mt-5 lg:mt-0">
             <input
               type="text"
               placeholder="Your Name"
@@ -413,5 +417,46 @@
         </div>
       </section>
     </main>
+
+    <footer
+      class="footer flex justify-between item-center flex-col lg:flex-row p-10 bg-base-200 text-base-content bg-[#111] text-white h-[auto]"
+    >
+      <div>
+        <img src="images/logo.png" alt="" />
+        <p class="w-[250px]">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour.
+        </p>
+      </div>
+      <div>
+        <span class="footer-title">Usefull Link</span>
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">About Us</a>
+        <a class="link link-hover">Classes</a>
+        <a class="link link-hover">Blog</a>
+      </div>
+      <div>
+        <span class="footer-title">Contact Now</span>
+        <a class="link link-hover"
+          >555 4th 5t NW, Washington DC 20530, <br />
+          United States</a
+        >
+        <a class="link link-hover"
+          >+88 01750 000 000 <br />
+          +88 01750 000 000</a
+        >
+        <a class="link link-hover"
+          >info@gmail.com <br />
+          info@gmail.com</a
+        >
+      </div>
+      <div>
+        <span class="footer-title">Legal</span>
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </div>
+    </footer>
   </body>
 </html>
